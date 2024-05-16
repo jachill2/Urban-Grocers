@@ -13,16 +13,30 @@
     - Create a new directory for your projects: 
     - - mkdir projects (Creates a folder called "projects")
     - - cd projects (Changes directory into new project folder)
-    - Clone the repository:
-    - - # if you are using HTTPS
-     git clone https://github.com/username/hm07-qa-us.git
+
+3. **Clone the repository:**
+     ### if you are using HTTPS
+     - git clone https://github.com/username/hm07-qa-us.git
  
-    # if you are using SSH
-    git clone git@github.com:username/hm07-qa-us.git
+    ### if you are using SSH
+    - git clone git@github.com:username/hm07-qa-us.git
 
     - Replace 'username' with your username
 
-3. **Open the Project in VS Code:**
+4. **Open the Project in VS Code:**
     - Open VS Code.
     - Go to File > Open Folder.
     - Select the 'project' folder to open it. 
+
+
+## How to run each test 
+- In the terminal of VS Code:
+
+- Before you start testing 
+- - npm install --yes
+
+- To run all of the test suites 
+- - npx jest 
+
+- To run a single test suite
+- - npx jest tests/(name of file)
